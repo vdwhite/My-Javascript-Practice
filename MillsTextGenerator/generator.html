@@ -1,0 +1,26 @@
+<!DOCTYPE  html>
+<head>
+<title>Overdue text generator</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="generator.css" />
+</head>
+<body>
+<p>Auto text generator for Mills Overdue Item, no need to open word to copy and paste</p>
+<input type="text" placeholder = "Your name" id="name" required="required">
+<input type="text" placeholder = "Reciver's name" id="receiver" required="required">
+<br/>
+<input type= "text" placeholder= "Item's name" id="itemName" required = "required">
+<button id="add">add item</button>
+<ul>
+  <li id="item"></li>
+</ul>
+
+<button id="generate">Generate!</button>
+<div>
+<p>Generated text:</p>
+<p>Subject:</p>
+<p>Mills' Overdue Item</p>
+<p id="mail"></p>
+</div>
+<script src="generator.js"></script>
+</body>
